@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: url(home.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.nav-bar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+	font-size: 30px;
+	color: #13152a;
+
+}
+.bold{
+	font-size: 50px;
+}
+.nav-bar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+}
+.nav-bar ul li a{
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.nav-bar ul li::after{
+	content: '';
+	height: 4px;
+	width: 0px;
+	background: #23abfc;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.4s;
+}
+.nav-bar ul li:hover::after{
+	width: 100%;
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+	width: 30%;
+	height: 50%;
+	align-items: center;
+	background: rgba(255, 255, 255, .4);
+	border-radius: 25px;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, .2) ;
+}
+.lo{
+	text-align: center;
+	padding-top: 10px;
+}
+.name{
+	margin-top: 60px;
+	margin-left: 20%;
+	padding: 10px 55px;
+	border-radius: 25px;
+	border-color:#317cf5;
+	font-size: 12.5px;
+	text-align: center;
+	font-weight: bold;
+}
+.Password{
+	margin-top: 20px;
+	margin-left: 20%;
+	padding: 10px 55px;
+	border-radius: 25px;
+	border-color:#317cf5;
+	font-size: 12.5px;
+	text-align: center;
+	font-weight: bold;
+}
+.email{
+	margin-top: 20px;
+	margin-left: 20%;
+	padding: 10px 55px;
+	border-radius: 25px;
+	border-color:#317cf5;
+	font-size: 12.5px;
+	text-align: center;
+	font-weight: bold;
+}
+.login{
+	margin-top: 45px;
+	margin-left: 180px;
+	padding: 5px 25px;
+	border-radius: 25px;
+	border-color:#317cf5;
+	background-color: white;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.reg{
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-left: 86px;
+	padding: 5px 20px;
+	border-radius: 25px;
+	border-color:#317cf5;
+	background-color: white;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+span{
+	background:#2c79f5 ;
+	height: 100%;
+	width: 0%;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transform: 0.90s;
+}
+.login:hover span{
+	width: 100%;
+}
+.reg:hover span{
+	width: 100%;
+}
+.login:hover span{
+	border: none;
+}
+.reg:hover span{
+	border: none;
+}

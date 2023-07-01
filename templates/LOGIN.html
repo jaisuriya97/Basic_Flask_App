@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<title>Login</title>
+</head>
+<body>
+		{% with messages=get_flashed_messages()  %}
+			{% if messages %}
+				{% for msg in messages  %} 
+				<div class="error">
+						<p>	{{msg}}<br><i class="material-icons">error</i></p></div>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+		<div class="banner">
+			<div class="nav-bar">
+				<p class="logo"><b class="bold">g</b>Force</p>
+					<ul>
+						<li><a onclick="window.location.href='{{ url_for( 'Home'  ) }}';">Home</a></li>
+						<li><a onclick="window.location.href='{{ url_for( 'login'  ) }}';">login</a></li>
+						<li><a onclick="window.location.href='{{ url_for( 'signup'  ) }}';">Register</a></li>
+						<li><a onclick="window.location.href='{{ url_for( 'Home'  ) }}';">LogOut</a></li>
+					</ul>
+			</div>
+			<div class="content">
+				<h1 class="lo">Login</h1>
+				<form method="POST"> 
+					<input class="name" type="text" name="name" placeholder="Name" required>
+					<br>
+					<input class="Password" type="Password" name="password" placeholder="Password" required>
+					<br>
+					<input class="login" type="submit" name="submit" value="login">
+					<input class="reg" type="button" name="Register" value="Register" onclick="window.location.href='{{ url_for( 'signup'  ) }}';">
+				</form>
+			</div>
+			
+</body>
+</html>
