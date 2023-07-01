@@ -42,9 +42,7 @@ The project follows a specific file structure:
 - `templates/`: Directory containing the HTML templates for different pages.
 - `static/`: Directory containing static files such as CSS stylesheets or images.
 
-## Contributing
 
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. You can also open issues for bug reports or feature requests.
 ## Screenshots
 
 Here are some screenshots of the application pages:
@@ -64,5 +62,8 @@ Here are some screenshots of the application pages:
 # 4. User Dashboard:
    ![Screenshot (22)](https://github.com/jaisuriya97/Basic_Flask_App/assets/80122325/4cfc7442-fa2c-4cb8-b2b1-be269cffb603)
 
+## Contributing
+
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. You can also open issues for bug reports or feature requests.
 
 ## Thank You ☠
