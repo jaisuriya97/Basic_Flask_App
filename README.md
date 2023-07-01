@@ -49,19 +49,19 @@ If you'd like to contribute to this project, feel free to fork the repository an
 
 Here are some screenshots of the application pages:
 
-1. Home Page:
+# 1. Home Page:
     ![Screenshot (23)](https://github.com/jaisuriya97/Basic_Flask_App/assets/80122325/264b6045-ad5e-4dbb-b4ff-9dba5a89c583)
 
 
-2. Signup Page:
+# 2. Signup Page:
    ![Screenshot (20)](https://github.com/jaisuriya97/Basic_Flask_App/assets/80122325/0f25fcd3-3b20-4124-9c93-e81151ad0ec6)
 
 
-3. Login Page:
+# 3. Login Page:
    ![Screenshot (19)](https://github.com/jaisuriya97/Basic_Flask_App/assets/80122325/1f8d5ff9-1e19-458b-9d7b-5a5b81838f4b)
 
 
-4. User Dashboard:
+# 4. User Dashboard:
    ![Screenshot (22)](https://github.com/jaisuriya97/Basic_Flask_App/assets/80122325/4cfc7442-fa2c-4cb8-b2b1-be269cffb603)
 
 
