@@ -50,7 +50,7 @@ If you'd like to contribute to this project, feel free to fork the repository an
 Here are some screenshots of the application pages:
 
 # 1. Home Page:
-    ![Screenshot (23)](https://github.com/jaisuriya97/Basic_Flask_App/assets/80122325/264b6045-ad5e-4dbb-b4ff-9dba5a89c583)
+![Screenshot (23)](https://github.com/jaisuriya97/Basic_Flask_App/assets/80122325/264b6045-ad5e-4dbb-b4ff-9dba5a89c583)
 
 
 # 2. Signup Page:
